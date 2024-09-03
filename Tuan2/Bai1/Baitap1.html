@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .content {
+            height: 860px;
+            width: 1089px;
+            background-color: blueviolet;
+        }
+        header {
+            line-height: 100px;
+            height: 80px;
+            width: 1089px;
+            background-color: rgb(244, 242, 242);
+            text-align: center;
+            font-weight: bolder;
+            font-size: 30px;
+            text-shadow: 10px 10px 10px;
+
+            color: palevioletred;
+        }
+        nav {
+            height: 60px;
+            width: 1089px;
+            font-size: 50px;
+            background-color: palevioletred;
+            color: white;
+        }
+        .section {
+            height: 640px;
+            width: 1089px;
+            background-color: white;
+
+        }
+        .menu-left {
+            height: 640px;
+            width: 15%;
+            background-color: white;
+            float: left;
+        }
+        article {
+            height: 40px;
+            width: 60%;
+            background-color: white;
+            float: left;  
+        }
+        aside {
+            height: 540px;
+            width: 25%;
+            background-color: rgb(15, 17, 1);
+            float: left;  
+            color: aliceblue;
+        }
+        footer {
+            line-height: 100px;
+            height: 80px;
+            width: 1089px;
+            background-color: palevioletred;    
+            color:white ;  
+            font-style: italic;
+            text-align: center;
+        }
+        .top-menu li {
+            float:left;
+            width: 200px;
+            line-height: 20px;
+            text-align: center;
+            list-style: none;
+        }
+        .top-menu li a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: aliceblue;
+            line-height: 50px;
+        }
+        article li {
+            margin-left: 50px;
+        }
+        h1 {
+            width: 300px;
+            height: 30px;
+            background-color: palevioletred;
+            color: rgb(85, 11, 67);
+            text-align: center;
+        }
+        .menu-left li {
+            width: 150px;
+            height: 20px;
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            margin: 5px;
+            list-style: none;
+            text-decoration: none;
+        }
+        img {
+            align-self: center;
+        }
+        a:link {
+            color: green;
+            font-size: 14px;
+        }
+
+        a:hover {
+            color: red;
+            font-size: 1.2em;
+
+        }
+       .abc{
+            height: 250px;
+            width: 220px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>EXAMPLE CAFE MENU</header>
+        <nav>
+            <ul class="top-menu">
+            <li style="margin-top: 15px;"><img src="icons8-home-50.png" alt="" width="20px" align="center"  >|</li>
+            <li><a href="https">Starters |</a></li>
+            <li><a href="https">Main Courses |</a></li>
+            <li><a href="https">Desserts</a></li>
+        </ul>
+        <input type="text" style="height: 30px;">
+        <input type="button" value="Go" style="margin-top: 20px; height: 30px;width: 30px;" >
+        </nav>
+        <div class="section">
+            <div class="menu-left"> 
+                <li><a href="" style="text-decoration: none;">Cafe latte</a></li>
+                <li><a href="" style="text-decoration: none;">Cafe eegs</a></li>
+                <li><a href="" style="text-decoration: none;">Cafe</a></li>
+                <li><a href="" style="text-decoration: none;">Custas</a></li>
+                <li><a href="" style="text-decoration: none;">Cafe a</a></li>
+                <br>
+                <img src="company.png" alt="" height="80px" style="border-radius: 50%;">
+            </div>
+            <article>
+                <br>
+                <h1>
+                    Starters
+                </h1>
+                <ul >
+                    <li> Chestnut and Mushroom Goujons <a href="#v">(v)</a> </li>
+                    <li> Goat Cheese Salad <a href="#v">(v)</a> </li>
+                    <li> Honey Soy Chicken Kebabs </li>
+                    <li> Seafood Salad </li>
+                </ul>
+                <a href="#section1">Back to top </a>
+                <h1>
+                    Desserts
+                </h1>
+                <ul>
+                    <li> Lemon Sorbet <a href="#v">(v)</a> </li>
+                    <li> Chocolate Mud Pie <a href="#v">(v)</a> </li>
+                    <li> Pecan Pie <a href="#v">(v)</a> </li>
+                    <li> Selection of Fine Cheese from Around the World </li> 
+                 </ul>
+                 <a href="#section1">Back to top </a>
+                <h1>
+                    INFORMATION
+                </h1>
+                <br>
+                <form action="Baitaptuan2">
+                    <input type="text" name="First name" value="First name" size="38">
+                    <input type="text" name="Last name" value="Last name" size="38">
+                    <br> <br>
+                    <input type="text" name="Email" value="Email" size="38">
+                    <input type="text" name="Telephone" value="Telephone" size="38">
+                    <br> <br>
+                    <select name="country" id="" >
+                        <option value="1">USA</option>
+                        <option value="2">Korea</option>
+                        <option value="3">UK</option>
+                    </select>
+                    <input type="radio" name="country" value="Vietnamese" > Vietnamese
+                    <input type="radio" name="country" value="Foreigner" > Foreigner
+                    <br> <br>
+                    <textarea name="message" id="11" rows="5" cols="80"></textarea>
+                    <br> <br>
+                    <input type="submit" value="Return">
+                    <input type="reset" value="Cancel">
+                </form>
+            </article>
+           <aside >
+            <h2>Events</h2>
+            <br>
+            <div class="abc">
+                <h3>Regular meeting</h3>
+            <img src="meeting.png" alt="" height="150px" width="220px">
+            <p>Host your regular team meetings or activities in the comfort <a href="">See more</a></p>
+               
+            </div>
+            <div  class="abc">
+                <h3>Product Launches</h3>
+                <img src="launch.png" alt="" height="150px" width="220px">
+                <p>Launch your product with ease in a space that truly fits its image 
+                    <a href="">See more</a> </p>
+            </div>
+           </aside>
+        </div>
+        <footer> ABC Company &#174; - 12345678- abccoffe@gmail.com</footer>
+    </div>
+</body>
+</html>
