@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        padding: 0px;
+        margin: 0px auto;
+    }
+    .wrapper{
+        width: 960px;;
+        height: 700px;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: #294e79;
+        width: 960px;
+        height: 150px;
+        position: relative;
+
+    }
+    header img{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    header .ph{
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        color: white;
+        font-size: 20px;
+    }
+    header h1{
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        color: white;
+        font-size: 50px;
+    }
+    header #frm1{
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        background-color: rgb(9, 32, 53);
+        color: azure;
+    }
+    header #frm1 input {
+        background-color: rgb(9, 32, 53);
+        height: 30px;
+        width: 300px
+    }
+        header #frm1 button {
+            background-color: rgb(9, 32, 53);
+            height: 30px;
+    }
+    nav{
+        position: absolute;
+        bottom: 0px;
+        left: 400px;
+        
+    }
+    .menu li{
+        display: inline-table;
+        background-color: #688eb9;
+        height: 50px;
+        line-height: 50px;
+        margin: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .menu li a{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: none;
+        
+    }
+    .menu li :hover{
+        background-color: azure;
+    }
+    .menu li a:hover {
+        color: blue;
+    }
+    .content{
+        width: 960px;
+        height: 500px;
+        position: relative;
+        margin: 10px auto;
+
+    }
+    footer{
+        background-color: #294e79;
+        width: 960px;
+        height: 50px;
+        position: relative;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+    footer ul li {
+        list-style-type: none;
+        color: white;
+        padding-left: 10px;
+        display:inline-table;
+    }
+    
+    section{
+        height: 100%;
+        width: 70%;
+        float: left;
+    }
+    section ul li {
+        color: red;
+        text-align: justify;
+        font-style: italic;
+        text-shadow: 3px 3px 3px rgb(112, 173, 83);
+        list-style-type: none;
+    }
+    aside{
+        height: 100%;
+        width: 30%;
+        float: left;
+        margin-top: 40px;
+    }
+    aside img{
+        margin-left: 15px;
+        position: absolute;
+        width: 250px;
+    }
+    aside p{
+        margin-top: 100px;
+        text-align: justify;
+        padding: 10px;
+    }
+    aside ul li a{
+        margin-left: 180px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    #ben{
+        background-color: aliceblue;
+        float: left;
+    }
+    #ben1{
+        float: left;
+        width: 50%;
+        height: 90%; 
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #ben1 p{
+        line-height: 20px;
+        text-align: justify;
+        color: red;
+        font-style: italic;
+        line-height: 30px;
+    }
+    #ben2{
+        float: left;
+        width: 40%;
+        height: 90%;  
+    }
+    #ben2 p{
+        margin-left: 20px;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="../Bai2/flower.png" alt="" height="100" width="80">
+            <h1> FlowerBox 360 </h1>
+            <p class="ph">  ...to get your daily close of luxury roses!</p>
+            <form action="" method="get" id="frm1">
+                <input type="search" name="txts" id="txts" value="Search the site..." style="color: white;">
+                <button type="submit" style="color: aliceblue; "  >GO</button>
+            </form>
+            <nav>
+                <ul class="menu">
+                    <li> <a href="#"> Home </a> </li>
+                    <li> <a href="#"> Promotion </a> </li>
+                    <li> <a href="#"> Gift Baskets </a> </li>
+                    <li> <a href="#"> Flowers Services </a> </li>
+                    <li> <a href="#"> About </a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <section>
+                <br>
+                <h2>Why Not Contact Us Today!</h2>
+                <br>
+                <hr style="width: 600px; margin-left: 5px; border-style:dashed;">
+                <br>
+                <div id="ben"></div>
+                <section id="ben1">
+                    <ul>
+                        <li>For FlowerBox 360 shopers, that means not only can you send your friends and loves ones the highest
+                            quality flowers found on online, but that you can do so at a great value.</li>
+                    </ul>
+                    <form action="form2">
+                        <Label for="Name" > Name : </Label>
+                        <Label for="Email" style="margin-left: 103px; " > Email : </Label>
+                        <br>
+                        <input type="text" size="15" style="height: 30px;" >
+                        <input type="text" size="18" style="height: 30px; margin-left: 15px; ">
+                        <br> <br>
+                        <Label for="Telephone" > Telephone : </Label>
+                        <Label for="Subject" style="margin-left: 73px; " > Subject : </Label>
+                        <br>
+                        <input type="text" size="15" style="height: 30px;" >
+                        <input type="text" size="18" style="height: 30px; margin-left: 15px;">
+                        <br>
+                        <br>
+                        <Label for="Messages" > Messages : </Label>
+                        <br>
+                        <input type="text" size="40" style="height: 50px;" >
+                        <br>
+                        <br>
+                        <button type="submit"> submit </button>
+                        <button type="reset"> Reset </button>
+                    </form>
+                </section>
+                <section id="ben2">
+                   <h2 style="margin-left: 10px; "> FlowerBox 360 Info!</h2>
+                   <br>  <hr style="width: 230px; margin-left: 5px; border-style:dashed; ">
+                   <br>
+                        <p>Openationg Hours: </p>
+                        <p>Monday-Friday:9:000am-5:00pm</p>
+                        <p>Saturday:9:00am-1.00pm.</p>
+                        <p>Sunday:CLosed (No Deliveries)</p>
+                        <p>ORDER ONLINE 24/7</p>
+                        <br><br>
+                        <p> Software Engineering Dept.</p>
+                        <p>Information Technology Faculty</p>
+                        <p>First Floor, H Building</p>
+                        <br><br>
+                        <p>12 Nguyen Van Bao, Ward 4,</p>
+                        <p>Go Vap District, Ho Chi Minh City</p>
+                        <p>Tel: 0283.8940 390</p>
+                        <p>Fax: 0283.9940 954</p>
+                        
+                </section>
+            </section>
+            <aside>
+                <h2> Discounts & Special </h2>
+                <br> 
+                <hr style="width: 270px; margin-left: 5px; border-style:dashed;">
+                 <br>
+                <img src="../Bai2/rose.png" alt="">
+                <br>
+                <p>FlowerBox 360 offers many great discounts throught the year, 
+                    from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderfull troppps!
+                </p>
+                <ul>
+                    <li>
+                    <a href="#" > Read more >></a>
+                    </li>
+                </ul>
+                
+            </aside>
+        </div>
+        <footer> 
+            <ul>
+                <li> Copyright 2017 - All Rights Reserved  </li>
+             <Li style="color: #688eb9;"> - Software Engineering Derpartment - Industrial University of Ho Chi Minh city </li> 
+            </ul>
+           </footer>
+    </div>
+</body>
+</html>
