@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0 auto;
+        }
+        .wrapper{
+            width: 950px;
+            height: 600px;
+            background-image: linear-gradient(rgb(130, 214, 233),rgb(66, 201, 239), rgb(102,185,237),rgb(94,167,239));
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            border-bottom-style: dotted;
+            border-bottom-width: 4px;
+            border-bottom-color: white ;
+        }
+        .menu li {
+            text-decoration: none;
+            display: inline-table;
+            list-style-type: none;
+            height: 50px;
+            line-height: 50px;
+            margin: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+            float: left;
+        }
+        .menu li a{
+            font-size: 17px;
+            text-decoration: none;
+            list-style-type: none;
+            font-weight: bold;
+            color: white;
+        }
+        header p{
+            height: 50px;
+            line-height: 50px;
+            margin-left: 750px;
+            color: white; 
+            font-weight: bold;
+            font-size: 30px;
+            text-shadow: 0px 0px 15px  #0000FF;
+
+        }
+     
+        footer{
+            width: 100%;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            height: 100px;
+            border-top-style: dotted;
+            border-top-width: 4px;
+            border-top-color: white ;
+            float: left;
+        }
+        footer p{
+            display: inline-table;
+        }
+        section{
+            width: 50%;
+            height: 450px;
+            float: left;
+        }
+        section p{
+            color: white;
+            text-align: justify;
+            margin-left: 10px;
+        }
+       section #form{
+        color: white;
+        font-size: 15px;
+        margin-left: 20px;
+        line-height: 30px;
+       }
+       section #form input{
+        color: gray;
+        border-radius: 5px;
+        border-color: blue;
+        width: 250px;
+       }
+       section #form #inp{
+        width: 235px;
+            height: 50px;
+            border: 2px solid #0000FF; /* Blue border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 10px;
+            color: #808080; /* Grey text color */
+            resize: both; /* Allows resizing */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+       }
+       section #form button{
+        border-radius: 5px;
+        border-style: dashed;
+        border-color: blue;
+       }
+        aside{
+            width: 50%;
+            height: 450px;
+            float: left;
+        }
+        aside img{
+            position: relative;
+            align-items: center;
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 400px;
+        }
+        aside h1{
+            color: blue;
+            margin-left: 40px;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: -2px -5px 0 #0000FF; 
+            resize: both ;
+        }
+        aside h3{
+            color: blue;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header> 
+            <ul class="menu">
+                <li> <a href="#"> Home </a></li>
+                <li> <a href="#"> Products </a></li>
+                <li> <a href="#"> Services </a></li>
+                <li> <a href="#"> About </a></li>
+                <li> <a href="#"> Contact </a></li>
+            </ul>
+            <p> Sky World</p>
+        </header>
+        <div class="content">
+            <section >
+                <br>
+                <h1 style="color: white; margin-left: 10px;">Registration Information</h1>
+                <br>
+                <p>Start your travel planning now with our on-line tour regstration
+                    form. Just tell us a little about yourself and your group and one of our travel
+                    experts will contact  you  to create the perfect custom built for your group's needs 
+                </p>
+                <br>
+                <form action="" method="get" id="form">
+                    <label for="title" > Title  </label>
+                    <select name="Title" style="margin-left: 140px; border-radius: 5px;border-color: blue;" > 
+                        <option value="text"> Mr. </option>
+                        <option value="text"> Mrs. </option>
+                    </select>
+                    <br>
+                    <label for="Fullname"> Full Name * </label>
+                    <input type="text" value=" First Name" style="margin-left: 90px;"> 
+                    <br>
+                    <label for="MailAddress"> Mail Address </label>
+                    <input type="text" value=" Mail Address" style="margin-left: 85px;" >
+                    <br>
+                    <label for="City"> City </label> 
+                    <input type="text" value=" City" style="margin-left: 140px;" > 
+                    <br>
+                    <label for="Country"> Country </label>
+                    <input type="text" value=" Country" style="margin-left: 115px;"> 
+                    <br>
+                    <label style="display: block; white-space: pre-line; margin-top: 15px;line-height: 15px;float: left; ;">Specific question or 
+                        requests about your tour</label>
+                    <input type="text" placeholder="Specific question or requests about your tour" id="inp"> 
+                    <button type="submit" style="margin-left: 170px;" > Submit </button>
+                    <button type="reset"> Reset </button>
+                </form>
+            </section>
+            <aside>
+                <img src="../Bai1/sky.png" alt="">
+                <h1>  Your've arrived   
+                </h1>
+                
+                <h3>Journeys as great as the destinations.</h3>
+            </aside>
+        </div>
+        <footer>
+            <br>
+            <p style="font-weight: bold;"> 2016 Sky World Tours. All rights reserved.</p>
+            <br>
+            <p >Contact information: </p>
+            <p style="font-style: italic;font-weight: bold;">  Student Name | StudentID |</p>
+            <p> Testing Date </p>
+            <p style="font-style: italic;font-weight: bold;"> 16 Sept 2016</p>
+
+        </footer>
+    </div>
+</body>
+</html>
