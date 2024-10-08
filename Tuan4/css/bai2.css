@@ -1,0 +1,149 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    height: 600px;
+    border: 2px solid black;
+}
+header{
+    width: 40%;
+    height: 100px;
+    float: left;
+    background-color: #19507e;
+}
+header h1{
+    color: aliceblue;
+    margin-top: 15px;
+}
+header p {
+    color: aliceblue;
+}
+nav {
+    width: 60%;
+    height: 100px;
+    background-color:#19507e ;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    width: 50%;
+    margin-top: 38px;
+}
+nav ul li {
+    background-color: #3d70b5;
+    display: inline-block;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+section{
+    width: 100%;
+    height: 400px;
+} 
+.contact {
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+    width: 50%;
+    padding-bottom: 10px;
+}
+aside{
+    width: 35%;
+    height: 400;
+    float: right;
+    padding-top: 40px;
+}
+.box {
+    background-color: rgb(243, 240, 236);
+    margin: 20px;
+    padding: 20px;
+    
+}
+aside .discount {
+    border-bottom: 2px dotted black;
+    padding-bottom: 10px;
+}
+aside p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+article{
+    width: 65%;
+    height: 400px;
+    float: left;
+    border-top: 2px dotted black;
+}
+.flower {
+    text-shadow: 5px 5px 5px green;
+    color: rgb(223, 68, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+.for{
+    height: 450px;
+    width: 57%;
+    float: left;
+    padding: 10px;
+}
+.info {
+    height: 450px;
+    width: 43%;
+    float: right;
+    padding-left: 20px;
+}
+.info h3 {
+    margin:10px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 10px;
+}
+footer{
+    height: 35px;
+    width: 100%;
+    clear: both;
+    background-color: #143456;
+    padding: 10px;
+    color: white;
+}.search-box {
+    display: flex;
+}
+.search-box input {
+    border: none;
+    border: 0.5px solid white;
+    background-color: #1d386d;
+    color: white;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+.search-box button {
+    padding: 5px 10px;
+    background-color: #1d386d;
+    color: white;
+    border: none;
+    border: 0.5px solid white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.search-box button:hover {
+    background-color: #516690;
+}
+table{
+    float: left;
+}
+td 
+{
+    padding: 5px;
+    padding-top: 10px;
+}button{
+    padding: 5px;
+}
